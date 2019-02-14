@@ -1,10 +1,8 @@
 # T-Pot 18.11
 
-T-Pot 18.11 runs on the latest 18.04.x LTS Ubuntu Server Network Installer image, is based on
+T-Pot 18.11基於[docker](https://www.docker.com/), [docker-compose](https://docs.docker.com/compose/)且運行在最新版本的18.04.x LTS Ubuntu 
 
-[docker](https://www.docker.com/), [docker-compose](https://docs.docker.com/compose/)
-
-and includes dockerized versions of the following honeypots
+Server上，以及如下所列之使用docker虛擬化的其他蜜罐
 
 * [adbhoney](https://github.com/huuck/ADBHoney),
 * [ciscoasa](https://github.com/Cymmetria/ciscoasa_honeypot),
@@ -22,15 +20,14 @@ and includes dockerized versions of the following honeypots
 * [snare](http://mushmush.org/),
 * [tanner](http://mushmush.org/)
 
+同時也使用了以下的工具
 
-Furthermore we use the following tools
-
-* [Cockpit](https://cockpit-project.org/running) for a lightweight, webui for docker, os, real-time performance monitoring and web terminal.
-* [Cyberchef](https://gchq.github.io/CyberChef/) a web app for encryption, encoding, compression and data analysis.
-* [ELK stack](https://www.elastic.co/videos) to beautifully visualize all the events captured by T-Pot.
-* [Elasticsearch Head](https://mobz.github.io/elasticsearch-head/) a web front end for browsing and interacting with an Elastic Search cluster.
-* [Spiderfoot](https://github.com/smicallef/spiderfoot) a open source intelligence automation tool.
-* [Suricata](http://suricata-ids.org/) a Network Security Monitoring engine.
+* [Cockpit](https://cockpit-project.org/running) 針對docker、作業系統(os)、實時效能監控(real-time performance)及網頁終端(web terminal)的一個輕量化的網頁使用者介面(webui)。
+* [Cyberchef](https://gchq.github.io/CyberChef/) 一個用來加密、編碼、壓縮及資料分析的網頁應用程式。
+* [ELK stack](https://www.elastic.co/videos) 用來精美的視覺化T-POT所接收到的所有事件的工具。
+* [Elasticsearch Head](https://mobz.github.io/elasticsearch-head/) 用來瀏覽及與彈性搜索群集(Elastic Search cluster)互動的網頁前端。
+* [Spiderfoot](https://github.com/smicallef/spiderfoot) 一個開源的智能自動化工具
+* [Suricata](http://suricata-ids.org/) 一個網路安全監控引擎
 
 
 # TL;DR
