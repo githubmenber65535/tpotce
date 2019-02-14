@@ -30,8 +30,8 @@ Server上，以及如下所列之使用docker虛擬化的其他蜜罐
 * [Suricata](http://suricata-ids.org/) 一個網路安全監控引擎
 
 
-# TL;DR
-1. Meet the [system requirements](#requirements). The T-Pot installation needs at least 6-8 GB RAM and 128 GB free disk space as well as a working internet connection.
+# 長話短說(Too Long, Don't Read-TL;DR)
+1. 參照[系統需求](#requirements). 安裝T-Pot需要至少6-8GB RAM、128GB硬碟空間以及可用的網路連線。
 2. Download the T-Pot ISO from [GitHub](https://github.com/dtag-dev-sec/tpotce/releases) or [create it yourself](#createiso).
 3. Install the system in a [VM](#vm) or on [physical hardware](#hw) with [internet access](#placement).
 4. Enjoy your favorite beverage - [watch](https://sicherheitstacho.eu) and [analyze](#kibana).
