@@ -26,15 +26,15 @@ Server上，以及如下所列之使用docker虛擬化的其他蜜罐
 * [Cyberchef](https://gchq.github.io/CyberChef/) 一個用來加密、編碼、壓縮及資料分析的網頁應用程式。
 * [ELK stack](https://www.elastic.co/videos) 用來精美的視覺化T-POT所接收到的所有事件的工具。
 * [Elasticsearch Head](https://mobz.github.io/elasticsearch-head/) 用來瀏覽及與彈性搜索群集(Elastic Search cluster)互動的網頁前端。
-* [Spiderfoot](https://github.com/smicallef/spiderfoot) 一個開源的智能自動化工具
-* [Suricata](http://suricata-ids.org/) 一個網路安全監控引擎
+* [Spiderfoot](https://github.com/smicallef/spiderfoot) 一個開源的智能自動化工具。
+* [Suricata](http://suricata-ids.org/) 一個網路安全監控引擎。
 
 
-# 長話短說(Too Long, Don't Read-TL;DR)
-1. 參照[系統需求](#requirements). 安裝T-Pot需要至少6-8GB RAM、128GB硬碟空間以及可用的網路連線。
-2. Download the T-Pot ISO from [GitHub](https://github.com/dtag-dev-sec/tpotce/releases) or [create it yourself](#createiso).
-3. Install the system in a [VM](#vm) or on [physical hardware](#hw) with [internet access](#placement).
-4. Enjoy your favorite beverage - [watch](https://sicherheitstacho.eu) and [analyze](#kibana).
+# 長話短說(TL;DR-Too Long, Don't Read)
+1. 請參照[系統需求](#requirements). 安裝T-Pot需要至少6-8GB RAM、128GB硬碟空間 以及 可用的網路連線。
+2. 您也可以從 [GitHub](https://github.com/dtag-dev-sec/tpotce/releases) 下載T-Pot.iso檔 或是 [自己創建](#createiso)一個T-Pot.iso檔。
+3. 安裝T-Pot在[虛擬機(VM)](#vm)上 或是 透過[網路存取(internet access)](#placement)在[物理硬件(physical hardware)](#hw)上安裝T-Pot。
+4. 享受你最愛的飲料開始使用吧 - [觀察(watch)](https://sicherheitstacho.eu) 與 [分析(analyze)](#kibana)。
 
 
 # Table of Contents
